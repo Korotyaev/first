@@ -3,7 +3,7 @@
 import pandas
 import matplotlib
 import matplotlib.pyplot as plt
-
+#definition of func
 def removeZeros(string):
        return int(string.replace(" ", "")) 
 
@@ -15,8 +15,8 @@ table = pandas.read_html(
               1: removeZeros
        }
        )[0]
-
+#show table
 print(table)
-
-table.plot(x = 'Год', kind='hist')
+#print plot
+table.plot(x = 'Год', kind='line')
 plt.show()
