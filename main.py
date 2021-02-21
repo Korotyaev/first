@@ -16,5 +16,5 @@ table = pandas.read_html(
 
 print(table)
 
-table.plot(x = 'Год')
+table.plot(x = 'Год', kind='bar')
 plt.show()
