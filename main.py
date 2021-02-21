@@ -1,5 +1,3 @@
-!#/usr/bin/python3
-
 import pandas
 import matplotlib
 import matplotlib.pyplot as plt
