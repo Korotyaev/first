@@ -18,5 +18,5 @@ table = pandas.read_html(
 
 print(table)
 
-table.plot(x = 'Год', kind='barh')
+table.plot(x = 'Год', kind='hist')
 plt.show()
