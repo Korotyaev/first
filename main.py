@@ -13,7 +13,7 @@ table = pandas.read_html(
               1: removeZeros
        }
        )[0]
-#show table
+#shit
 print(table)
 #print plot
 table.plot(x = 'Год', kind='line')
