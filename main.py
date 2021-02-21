@@ -1,3 +1,5 @@
+!#/usr/bin/python3
+
 import pandas
 import matplotlib
 import matplotlib.pyplot as plt
@@ -16,5 +18,5 @@ table = pandas.read_html(
 
 print(table)
 
-table.plot(x = 'Год')
+table.plot(x = 'Год', kind='barh')
 plt.show()
